@@ -94,4 +94,7 @@
     <CopyFileToFolders Include="json\og_missions\ABitterPill.JSON" />
     <CopyFileToFolders Include="json\og_missions\WorldOfTomorrow.JSON" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="LICENSE.txt" />
+  </ItemGroup>
 </Project>
