@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ExtraGamemodes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="json\npcs\ABitterPill.JSON" />
+    <None Include="json\npcs\AGildedCage.JSON" />
+    <None Include="json\npcs\AHouseBuiltOnSand.JSON" />
+    <None Include="json\npcs\AnotherLife.JSON" />
+    <None Include="json\npcs\ApexPredator.JSON" />
+    <None Include="json\npcs\ASilverTongue.JSON" />
+    <None Include="json\npcs\ChasingAGhost.JSON" />
+    <None Include="json\npcs\Club27.JSON" />
+    <None Include="json\npcs\DeathInTheFamily.JSON" />
+    <None Include="json\npcs\EmbraceOfTheSerpent.JSON" />
+    <None Include="json\npcs\EndOfAnEra.JSON" />
+    <None Include="json\npcs\FreedomFighters.JSON" />
+    <None Include="json\npcs\GoldenHandshake.JSON" />
+    <None Include="json\npcs\GuidedTraining.JSON" />
+    <None Include="json\npcs\IllusionsOfGrandeur.JSON" />
+    <None Include="json\npcs\Landslide.JSON" />
+    <None Include="json\npcs\Nightcall.JSON" />
+    <None Include="json\npcs\OnTopOfTheWorld.JSON" />
+    <None Include="json\npcs\PatientZero.JSON" />
+    <None Include="json\npcs\SitusInversus.JSON" />
+    <None Include="json\npcs\TheArkSociety.JSON" />
+    <None Include="json\npcs\TheAuthor.JSON" />
+    <None Include="json\npcs\TheFarewell.JSON" />
+    <None Include="json\npcs\TheFinalTest.JSON" />
+    <None Include="json\npcs\TheIcon.JSON" />
+    <None Include="json\npcs\TheLastResort.JSON" />
+    <None Include="json\npcs\TheShowstopper.JSON" />
+    <None Include="json\npcs\TheSource.JSON" />
+    <None Include="json\npcs\TheVector.JSON" />
+    <None Include="json\npcs\ThreeHeadedSerpent.JSON" />
+    <None Include="json\npcs\Untouchable.JSON" />
+    <None Include="json\npcs\WorldOfTomorrow.JSON" />
+    <None Include="json\og_missions\AGildedCage.JSON" />
+    <None Include="json\og_missions\AHouseBuiltOnSand.JSON" />
+    <None Include="json\og_missions\AnotherLife.JSON" />
+    <None Include="json\og_missions\ApexPredator.JSON" />
+    <None Include="json\og_missions\ASilverTongue.JSON" />
+    <None Include="json\og_missions\ChasingAGhost.JSON" />
+    <None Include="json\og_missions\Club27.JSON" />
+    <None Include="json\og_missions\DeathInTheFamily.JSON" />
+    <None Include="json\og_missions\EmbraceOfTheSerpent.JSON" />
+    <None Include="json\og_missions\EndOfAnEra.JSON" />
+    <None Include="json\og_missions\FreedomFighters.JSON" />
+    <None Include="json\og_missions\GoldenHandshake.JSON" />
+    <None Include="json\og_missions\GuidedTraining.JSON" />
+    <None Include="json\og_missions\IllusionsOfGrandeur.JSON" />
+    <None Include="json\og_missions\Landslide.JSON" />
+    <None Include="json\og_missions\Nightcall.JSON" />
+    <None Include="json\og_missions\OnTopOfTheWorld.JSON" />
+    <None Include="json\og_missions\PatientZero.JSON" />
+    <None Include="json\og_missions\SitusInversus.JSON" />
+    <None Include="json\og_missions\TheArkSociety.JSON" />
+    <None Include="json\og_missions\TheAuthor.JSON" />
+    <None Include="json\og_missions\TheFarewell.JSON" />
+    <None Include="json\og_missions\TheFinalTest.JSON" />
+    <None Include="json\og_missions\TheIcon.JSON" />
+    <None Include="json\og_missions\TheLastResort.JSON" />
+    <None Include="json\og_missions\TheShowstopper.JSON" />
+    <None Include="json\og_missions\TheSource.JSON" />
+    <None Include="json\og_missions\TheVector.JSON" />
+    <None Include="json\og_missions\ThreeHeadedSerpent.JSON" />
+    <None Include="json\og_missions\Untouchable.JSON" />
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="json\npcs\TheFinishLine.JSON" />
+    <CopyFileToFolders Include="json\mission_info.json" />
+    <CopyFileToFolders Include="json\og_missions\FreeformTraining.JSON" />
+    <CopyFileToFolders Include="json\og_missions\TheFinishLine.JSON" />
+    <CopyFileToFolders Include="json\npcs\FreeformTraining.JSON" />
+    <CopyFileToFolders Include="json\objectives\KillEveryone.JSON" />
+    <CopyFileToFolders Include="json\og_missions\ABitterPill.JSON" />
+    <CopyFileToFolders Include="json\og_missions\WorldOfTomorrow.JSON" />
+  </ItemGroup>
+</Project>

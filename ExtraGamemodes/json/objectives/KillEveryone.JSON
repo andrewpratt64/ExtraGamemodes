@@ -1,0 +1,90 @@
+{
+	"Id": "00000000-0000-0000-0000-000000000000",
+	"Category": "primary",
+	"ObjectiveType": "custom",
+	"ForceShowOnLoadingScreen": true,
+	"Image": "images/challenges/bangkok/horror_axe_kill.jpg",
+	"BriefingName": "Kill Everyone",
+	"LongBriefingText": "Do it.",
+	"BriefingText": "Eliminate every single npc. Crowd npcs do not count.",
+	"HUDTemplate": {
+		"display": "KILL EVERYONE"
+	},
+	"OnActive": {
+		"IfCompleted": {
+			"Visible": true
+		}
+	},
+	"Type": "statemachine",
+	"Scope": "hit",
+	"Definition":
+	{
+		"ContextListeners": {
+			"update_counter": {
+				"type": "custom",
+				"HUDTemplate": {
+					"display": {
+						"$loc": {
+							"key": "UI_CONTRACT_FOX_ELIMINATE_LESSER_AGENTS_HUD",
+							"data": [
+								"$.TargetsKilledCounter",
+								"$.TargetsKilledGoal"
+							]
+						}
+					}
+				}
+			}
+		},
+		"Context":
+		{
+			"Targets": [],
+			"TargetsKilledCounter": 0,
+			"TargetsKilledGoal": 1,
+			"TargetsLeft": 1,
+			"update_counter": 1
+		},
+		"States":
+		{
+			"Start":
+			{
+				"Kill":
+				[
+					{
+						"Actions":
+						[
+							{
+								"$inc": "TargetsKilledCounter"
+							},
+							{
+								"$dec": "TargetsLeft"
+							},
+							{
+								"$dec": "update_counter"
+							}
+						],
+						"Condition": {
+							"$inarray": {
+								"in": "$.Targets",
+								"?": {
+									"$eq": [
+										"$.#",
+										"$Value.RepositoryId"
+									]
+								}
+							}
+						}
+					},
+					{
+						"Condition": {
+							"$eq": [
+								"$.TargetsLeft",
+								0
+							]
+						},
+						"Transition": "Success"
+					}
+				]
+			}
+		}
+	}
+}

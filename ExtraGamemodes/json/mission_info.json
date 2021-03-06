@@ -1,0 +1,239 @@
+{
+	"FreeformTraining":
+	{
+		"niceName":	"Freeform Training",
+		"location":	"ICA Facility",
+		"hash":		"001843F7C2B99591"
+	},
+	
+	"GuidedTraining":
+	{
+		"niceName":	"Guided Training",
+		"location":	"ICA Facility",
+		"hash":		"00769459086D820A"
+	},
+	
+	"TheFinalTest":
+	{
+		"niceName":	"The Final Test",
+		"location":	"ICA Facility",
+		"hash":		"00DEF6CC9864B276"
+	},
+	
+	"TheShowstopper":
+	{
+		"niceName":	"The Showstopper",
+		"location":	"Paris",
+		"hash":		"0045BC2D7CB77F68"
+	},
+	
+	"WorldOfTomorrow":
+	{
+		"niceName":	"World of Tomorrow",
+		"location":	"Sapienza",
+		"hash":		"008B6C7914D2D461"
+	},
+	
+	"TheIcon":
+	{
+		"niceName":	"The Icon",
+		"location":	"Sapienza",
+		"hash":		"0047ADE4EFBE0867"
+	},
+	
+	"TheAuthor":
+	{
+		"niceName":	"The Author",
+		"location":	"Sapienza",
+		"hash":		"003D13C98D33FD3A"
+	},
+	
+	"Landslide":
+	{
+		"niceName":	"Landslide",
+		"location":	"Sapienza",
+		"hash":		"005333DCA5D1AABB"
+	},
+	
+	"AGildedCage":
+	{
+		"niceName":	"A Gilded Cage",
+		"location":	"Marrakesh",
+		"hash":		"00AFD536960F606B"
+	},
+	
+	"AHouseBuiltOnSand":
+	{
+		"niceName":	"A House Built On Sand",
+		"location":	"Marrakesh",
+		"hash":		"007979558A4DFD5E"
+	},
+	
+	"Club27":
+	{
+		"niceName":	"Club 27",
+		"location":	"Bangkok",
+		"hash":		"008E98659BE939A9"
+	},
+	
+	"TheSource":
+	{
+		"niceName":	"The Source",
+		"location":	"Bangkok",
+		"hash":		"001F0DDCA1CD152D"
+	},
+	
+	"FreedomFighters":
+	{
+		"niceName":	"Freedom Fighters",
+		"location":	"Colorado",
+		"hash":		"00EDD07D6E516646"
+	},
+	
+	"TheVector":
+	{
+		"niceName":	"TheVector",
+		"location":	"Colorado",
+		"hash":		"00426F952252D4CB"
+	},
+	
+	"SitusInversus":
+	{
+		"niceName":	"Situs Inversus",
+		"location":	"Hokkaido",
+		"hash":		"003354A644B72E43"
+	},
+	
+	"PatientZero":
+	{
+		"niceName":	"Patient Zero",
+		"location":	"Hokkaido",
+		"hash":		"009E6D387F52F286"
+	},
+	
+	"Nightcall":
+	{
+		"niceName":	"Nightcall",
+		"location":	"Hawke's Bay",
+		"hash":		"000F585FC7EE3AF8"
+	},
+	
+	"TheFinishLine":
+	{
+		"niceName":	"The Finish Line",
+		"location":	"Miami",
+		"hash":		"001843F7C2B99591"
+	},
+	
+	"ASilverTongue":
+	{
+		"niceName":	"A Silver Tongue",
+		"location":	"Miami",
+		"hash":		"0031903EA9340BC6"
+	},
+	
+	"ThreeHeadedSerpent":
+	{
+		"niceName":	"Three Headed Serpent",
+		"location":	"Santa Fortuna",
+		"hash":		"001004DF074AD315"
+	},
+	
+	"EmbraceOfTheSerpent":
+	{
+		"niceName":	"Embrace of the Serpent",
+		"location":	"Santa Fortuna",
+		"hash":		"002FB0AA87939A7E"
+	},
+	
+	"ChasingAGhost":
+	{
+		"niceName":	"Chasing a Ghost",
+		"location":	"Mumbai",
+		"hash":		"006CD45EB591D57A"
+	},
+	
+	"IllusionsOfGrandeur":
+	{
+		"niceName":	"Illusions Of Grandeur",
+		"location":	"Mumbai",
+		"hash":		"00710ADA0817B8BD"
+	},
+	
+	"AnotherLife":
+	{
+		"niceName":	"Another Life",
+		"location":	"Whittleton Creek",
+		"hash":		"004BDB40699F7D72"
+	},
+	
+	"ABitterPill":
+	{
+		"niceName":	"A Bitter Pill",
+		"location":	"Whittleton Creek",
+		"hash":		"0023AE7538BD74B0"
+	},
+	
+	"TheArkSociety":
+	{
+		"niceName":	"The Ark Society",
+		"location":	"Isle of Sgàil",
+		"hash":		"0023AE7538BD74B0"
+	},
+	
+	"GoldenHandshake":
+	{
+		"niceName":	"Golden Handshake",
+		"location":	"New York",
+		"hash":		"00460450C806133B"
+	},
+	
+	"TheLastResort":
+	{
+		"niceName":	"The Last Resort",
+		"location":	"Haven Island",
+		"hash":		"00E9C518F01B071C"
+	},
+	
+	"OnTopOfTheWorld":
+	{
+		"niceName":	"On Top of the World",
+		"location":	"Dubai",
+		"hash":		"003ACDFAA2D796C3"
+	},
+	
+	"DeathInTheFamily":
+	{
+		"niceName":	"Death in the Family",
+		"location":	"Dartmoor",
+		"hash":		"00F1C98E21AC5D76"
+	},
+	
+	"ApexPredator":
+	{
+		"niceName":	"Apex Predator",
+		"location":	"Berlin",
+		"hash":		"0042477F6A0D4651"
+	},
+	
+	"EndOfAnEra":
+	{
+		"niceName":	"End of an Era",
+		"location":	"Chongqing",
+		"hash":		"0092633EE2D15990"
+	},
+	
+	"TheFarewell":
+	{
+		"niceName":	"The Farewell",
+		"location":	"Mendoza",
+		"hash":		"00C27E02CD7CD328"
+	},
+	
+	"Untouchable":
+	{
+		"niceName":	"Untouchable",
+		"location":	"Carpathian Mountains",
+		"hash":		"00A8C67C8316EF20"
+	}
+}
